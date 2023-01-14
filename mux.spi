@@ -1,0 +1,62 @@
+*** SPICE deck for cell mux{lay} from library 4_1_mux
+*** Created on Sat Jan 14, 2023 17:53:32
+*** Last revised on Sat Jan 14, 2023 18:15:17
+*** Written on Sat Jan 14, 2023 18:18:12 by Electric VLSI Design System, version 9.07
+*** Layout tech: mocmos, foundry MOSIS
+*** UC SPICE *** , MIN_RESIST 4.0, MIN_CAPAC 0.1FF
+
+*** TOP LEVEL CELL: 4_1_mux:mux{lay}
+Mnmos@0 gnd S0 net@1 gnd NMOS L=0.36U W=1.8U AS=2.268P AD=6.966P PS=6.12U PD=17.28U
+Mnmos@1 net@3 net@1 net@8 gnd NMOS L=0.36U W=1.8U AS=1.62P AD=1.89P PS=3.6U PD=4.5U
+Mnmos@2 net@8 A0 gnd gnd NMOS L=0.36U W=1.8U AS=6.966P AD=1.62P PS=17.28U PD=3.6U
+Mnmos@3 net@9 S0 net@41 gnd NMOS L=0.36U W=1.8U AS=1.62P AD=1.89P PS=3.6U PD=4.5U
+Mnmos@4 net@41 A1 gnd gnd NMOS L=0.36U W=1.8U AS=6.966P AD=1.62P PS=17.28U PD=3.6U
+Mnmos@5 net@87 net@9 net@83 gnd NMOS L=0.36U W=1.8U AS=1.62P AD=1.89P PS=3.6U PD=4.5U
+Mnmos@6 net@83 net@3 gnd gnd NMOS L=0.36U W=1.8U AS=6.966P AD=1.62P PS=17.28U PD=3.6U
+Mnmos@7 gnd S0 net@111 gnd NMOS L=0.36U W=1.8U AS=2.268P AD=6.966P PS=6.12U PD=17.28U
+Mnmos@8 net@113 net@111 net@118 gnd NMOS L=0.36U W=1.8U AS=1.62P AD=1.89P PS=3.6U PD=4.5U
+Mnmos@9 net@118 A2 gnd gnd NMOS L=0.36U W=1.8U AS=6.966P AD=1.62P PS=17.28U PD=3.6U
+Mnmos@10 net@119 S0 net@151 gnd NMOS L=0.36U W=1.8U AS=1.62P AD=1.89P PS=3.6U PD=4.5U
+Mnmos@11 net@151 A3 gnd gnd NMOS L=0.36U W=1.8U AS=6.966P AD=1.62P PS=17.28U PD=3.6U
+Mnmos@12 net@197 net@119 net@193 gnd NMOS L=0.36U W=1.8U AS=1.62P AD=1.89P PS=3.6U PD=4.5U
+Mnmos@13 net@193 net@113 gnd gnd NMOS L=0.36U W=1.8U AS=6.966P AD=1.62P PS=17.28U PD=3.6U
+Mnmos@14 gnd S1 net@221 gnd NMOS L=0.36U W=1.8U AS=2.268P AD=6.966P PS=6.12U PD=17.28U
+Mnmos@15 net@223 net@221 net@228 gnd NMOS L=0.36U W=1.8U AS=1.62P AD=1.89P PS=3.6U PD=4.5U
+Mnmos@16 net@228 net@87 gnd gnd NMOS L=0.36U W=1.8U AS=6.966P AD=1.62P PS=17.28U PD=3.6U
+Mnmos@17 net@229 S1 net@261 gnd NMOS L=0.36U W=1.8U AS=1.62P AD=1.89P PS=3.6U PD=4.5U
+Mnmos@18 net@261 net@197 gnd gnd NMOS L=0.36U W=1.8U AS=6.966P AD=1.62P PS=17.28U PD=3.6U
+Mnmos@19 Y net@229 net@303 gnd NMOS L=0.36U W=1.8U AS=1.62P AD=1.89P PS=3.6U PD=4.5U
+Mnmos@20 net@303 net@223 gnd gnd NMOS L=0.36U W=1.8U AS=6.966P AD=1.62P PS=17.28U PD=3.6U
+Mpmos@0 vdd net@1 net@3 vdd PMOS L=0.36U W=1.8U AS=1.89P AD=5.568P PS=4.5U PD=14.055U
+Mpmos@1 net@3 A0 vdd vdd PMOS L=0.36U W=1.8U AS=5.568P AD=1.89P PS=14.055U PD=4.5U
+Mpmos@2 vdd S0 net@1 vdd PMOS L=0.36U W=1.8U AS=2.268P AD=5.568P PS=6.12U PD=14.055U
+Mpmos@3 vdd S0 net@9 vdd PMOS L=0.36U W=1.8U AS=1.89P AD=5.568P PS=4.5U PD=14.055U
+Mpmos@4 net@9 A1 vdd vdd PMOS L=0.36U W=1.8U AS=5.568P AD=1.89P PS=14.055U PD=4.5U
+Mpmos@5 vdd net@9 net@87 vdd PMOS L=0.36U W=1.8U AS=1.89P AD=5.568P PS=4.5U PD=14.055U
+Mpmos@6 net@87 net@3 vdd vdd PMOS L=0.36U W=1.8U AS=5.568P AD=1.89P PS=14.055U PD=4.5U
+Mpmos@7 vdd net@111 net@113 vdd PMOS L=0.36U W=1.8U AS=1.89P AD=5.568P PS=4.5U PD=14.055U
+Mpmos@8 net@113 A2 vdd vdd PMOS L=0.36U W=1.8U AS=5.568P AD=1.89P PS=14.055U PD=4.5U
+Mpmos@9 vdd S0 net@111 vdd PMOS L=0.36U W=1.8U AS=2.268P AD=5.568P PS=6.12U PD=14.055U
+Mpmos@10 vdd S0 net@119 vdd PMOS L=0.36U W=1.8U AS=1.89P AD=5.568P PS=4.5U PD=14.055U
+Mpmos@11 net@119 A3 vdd vdd PMOS L=0.36U W=1.8U AS=5.568P AD=1.89P PS=14.055U PD=4.5U
+Mpmos@12 vdd net@119 net@197 vdd PMOS L=0.36U W=1.8U AS=1.89P AD=5.568P PS=4.5U PD=14.055U
+Mpmos@13 net@197 net@113 vdd vdd PMOS L=0.36U W=1.8U AS=5.568P AD=1.89P PS=14.055U PD=4.5U
+Mpmos@14 vdd net@221 net@223 vdd PMOS L=0.36U W=1.8U AS=1.89P AD=5.568P PS=4.5U PD=14.055U
+Mpmos@15 net@223 net@87 vdd vdd PMOS L=0.36U W=1.8U AS=5.568P AD=1.89P PS=14.055U PD=4.5U
+Mpmos@16 vdd S1 net@221 vdd PMOS L=0.36U W=1.8U AS=2.268P AD=5.568P PS=6.12U PD=14.055U
+Mpmos@17 vdd S1 net@229 vdd PMOS L=0.36U W=1.8U AS=1.89P AD=5.568P PS=4.5U PD=14.055U
+Mpmos@18 net@229 net@197 vdd vdd PMOS L=0.36U W=1.8U AS=5.568P AD=1.89P PS=14.055U PD=4.5U
+Mpmos@19 vdd net@229 Y vdd PMOS L=0.36U W=1.8U AS=1.89P AD=5.568P PS=4.5U PD=14.055U
+Mpmos@20 Y net@223 vdd vdd PMOS L=0.36U W=1.8U AS=5.568P AD=1.89P PS=14.055U PD=4.5U
+
+* Spice Code nodes in cell cell '4_1_mux:mux{lay}'
+vdd vdd 0 DC 5
+va A0 0 pulse 5 0 0 10n 10n 1u 2u
+vb A1 0 pulse 5 0 0 10n 10n 1u 3u
+vc A2 0 pulse 5 0 0 10n 10n 2u 4u
+vd A3 0 pulse 5 0 0 10n 10n 2u 2u
+vs1 S0 0 pulse 5 0 0 10n 10n 1u 5u
+vs2 S1 0 pulse 5 0 0 10n 10n 1u 4u
+.trans 20u
+.include D:\Electric\projects\C5_models.txt
+.END
