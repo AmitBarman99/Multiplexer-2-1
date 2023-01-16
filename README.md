@@ -31,4 +31,20 @@ But the simplest form of it is (According to CMOS),
 Y = (A0.S'+A1.S)''<br>
 => Y = [(A0.S')'. (A1.S)']'
 
+So, Circuit will be like this :
+
+![circuit](./mux.png)
+
+And the layout :
+
+![layout](./2_1_mux_layout.png)
+
+
+In IC form (6-pin):
+
+![ic](./mux_ic_form.png)
+
+
+> Use Electric for layout designing<br>
+> And LTSpice for simulation
 
