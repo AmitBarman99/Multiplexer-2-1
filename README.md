@@ -48,3 +48,19 @@ In IC form (6-pin):
 > Use Electric for layout designing<br>
 > And LTSpice for simulation
 
+
+### Important
+
+```bash
+vdd vdd 0 DC 5
+va A0 0 pulse 5 0 0 10n 10n 1u 2u
+vb A1 0 pulse 5 0 0 10n 10n 1u 3u
+vc A2 0 pulse 5 0 0 10n 10n 2u 4u
+vd A3 0 pulse 5 0 0 10n 10n 2u 2u
+vs1 S0 0 pulse 5 0 0 10n 10n 1u 5u
+vs2 S1 0 pulse 5 0 0 10n 10n 1u 4u
+.trans 20u
+.include D:\Electric\projects\C5_models.txt
+```
+
+> Use it during simulation
