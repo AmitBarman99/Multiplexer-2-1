@@ -64,3 +64,11 @@ vs2 S1 0 pulse 5 0 0 10n 10n 1u 4u
 ```
 
 > Use it during simulation
+
+[See VHDL code](./code.vhdl)
+
+<br>
+
+Author :<br>
+[Amit Barman](https://abhisandhi.netlify.app/)<br>
+ETC undergrad,IIESTS
