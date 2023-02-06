@@ -24,12 +24,12 @@ In 2:1 multiplexer, there are only two inputs,A0 and A1, 1 selection line, S0 an
 
 **The Logical expression of 2 : 1 Multiplexer is -**
 
-Y = S'.A0 + S.A1
+$$Y = \overline{S}.A_0 + S.A_1$$
 
 But the simplest form of it is (According to CMOS),
 
-Y = (A0.S'+A1.S)''<br>
-=> Y = [(A0.S')'. (A1.S)']'
+$$Y = \overline{\overline{(A_0.\overline{S}+A_1.S)}}$$
+$$=> Y = \overline{[\overline{(A_0.\overline{S})}. \overline{(A_1.S)}]}$$
 
 So, Circuit will be like this :
 
