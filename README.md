@@ -9,7 +9,7 @@ In 2:1 multiplexer, there are only two inputs, $A_0$ and $A_1$ , 1 selection lin
 
 ### Truth Table
 
-|S|$$A_0$$|$$A_1$$|Y|
+|$S$|$$A_0$$|$$A_1$$|$Y$|
 |-|-|-|-|
 |0|0|0|0|
 |0|0|1|0|
@@ -29,6 +29,7 @@ $$Y = \overline{S}.A_0 + S.A_1$$
 But the simplest form of it is (According to CMOS),
 
 $$Y = \overline{\overline{(A_0.\overline{S}+A_1.S)}}$$
+
 $$=> Y = \overline{[\overline{(A_0.\overline{S})}. \overline{(A_1.S)}]}$$
 
 So, Circuit will be like this :
