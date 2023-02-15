@@ -1,6 +1,6 @@
 ## 2 : 1 Multiplexer
 
-In 2:1 multiplexer, there are only two inputs,A0 and A1, 1 selection line, S0 and single outputs, Y. On the basis of the combination of inputs at the selection line S0, one of these 2 inputs will be connected to the output.
+In 2:1 multiplexer, there are only two inputs, $A_0$ and $A_1$ , 1 selection line, $S_0$ and single outputs, Y. On the basis of the combination of inputs at the selection line $S_0$, one of these 2 inputs will be connected to the output.
 
 ### Block Diagram
 
@@ -9,7 +9,7 @@ In 2:1 multiplexer, there are only two inputs,A0 and A1, 1 selection line, S0 an
 
 ### Truth Table
 
-|S|A0|A1|Y|
+|S|$$A_0$$|$$A_1$$|Y|
 |-|-|-|-|
 |0|0|0|0|
 |0|0|1|0|
